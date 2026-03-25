@@ -203,3 +203,4 @@ A curated list of Telco Cloud ecosystem projects and resources.
 ## Artificial Intelligence for Telcos
 
   - [Telco-RAG](https://github.com/netop-team/Telco-RAG) - a specialized Retrieval-Augmented Generation for 3GPP documents
+  - [NVIDIA Aerial CUDA-Accelerated RAN](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) - software and tools to build, train, simulate, and deploy AI-native wireless networks
