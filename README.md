@@ -158,6 +158,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
 
 ### 5G Network NFs
 
+  - [OCUDU](https://gitlab.com/ocudu/ocudu) - a complete RAN solution compliant with 3GPP and O-RAN Alliance specifications (full L1/2/3 stack), governed under the Linux Foundation
   - [OpenAirInterface 5G RAN](https://openairinterface.org/oai-5g-ran-project/) - an open source 5G Radio Access Network supporting 5G SA & NSA
   - [srsRAN](https://github.com/srsran/srsran_project) - a complete 5G RAN solution, featuring an ORAN-native CU/DU
   - [Free5GC](https://free5gc.org/) - an open-source project for 5th generation (5G) mobile core networks (Release 15)
@@ -204,3 +205,4 @@ A curated list of Telco Cloud ecosystem projects and resources.
 
   - [Telco-RAG](https://github.com/netop-team/Telco-RAG) - a specialized Retrieval-Augmented Generation for 3GPP documents
   - [NVIDIA Aerial CUDA-Accelerated RAN](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) - software and tools to build, train, simulate, and deploy AI-native wireless networks
+  - [OCUDU AI Agent Skills](https://github.com/ngkore/OCUDU-AI-Agent-Skills) -  OCUDU enabled with AI Agent Skills to perform action by AI agents like Claude, Cursor, Windsurf etc...
