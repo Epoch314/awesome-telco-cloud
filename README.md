@@ -183,6 +183,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [Corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network
   - [OsmoSGSN](https://osmocom.org/projects/osmosgsn) - an Open Source implementation of a SGSN (Serving GPRS Support Node)
   - [OsmoGGSN](https://osmocom.org/projects/openggsn) - an Open Source implementation of a GGSN (Gateway GPRS Support Node)
+  - [1xBTS](https://github.com/chrismoos/1xbts) - open source CDMA2000 cellular network
 
 ### 2G Network NFs
 
