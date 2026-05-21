@@ -165,6 +165,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [Open5GS](https://open5gs.org/) - a C-language Open Source implementation of 5G Core Network (Release-16)
   - [OpenAirInterface 5GC](https://openairinterface.org/oai-code/) - open source 5G Core Network
   - [SigScale CHF](https://github.com/sigscale/chf) - an open source 5G Charging Function NF
+  - [ellacore](https://github.com/ellanetworks/core) - free5GC-based core network with eBPF user plane in a single binary
 
 ### 4G Network NFs
 
