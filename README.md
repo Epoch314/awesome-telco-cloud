@@ -3,6 +3,13 @@
 A curated list of Telco Cloud ecosystem projects and resources.
 
 - [Awesome Squared](#awesome-squared)
+- [Open Source Cellular Network NFs](#open-source-cellular-network-nfs)
+  * [5G Network NFs](#5g-network-nfs)
+  * [4G Network NFs](#4g-network-nfs)
+  * [3G Network NFs](#3g-network-nts)
+  * [2G Network NFs](#2g-network-nfs)
+- [Private 3G-4G-5G Core Networks based on Open Source](#private-3g-4g-5g-core-networks-based-on-open-source)
+- [Artificial Intelligence for Telcos](#artificial-intelligence-for-telcos)
 - [Resources](#resources)
   * [Books](#books)
   * [Courses](#courses)
@@ -19,13 +26,6 @@ A curated list of Telco Cloud ecosystem projects and resources.
   * [European Telecommunications Standards Institute - ETSI projects](#european-telecommunications-standards-institute---etsi-projects)
   * [Telecom Infra Project - TIP projects](#telecom-infra-project---tip-projects)
   * [Open Radio Access Network - O-RAN projects](#open-radio-access-network---o-ran-projects)
-- [Open Source Cellular Network NFs](#open-source-cellular-network-nfs)
-  * [5G Network NFs](#5g-network-nfs)
-  * [4G Network NFs](#4g-network-nfs)
-  * [3G Network NFs](#3g-network-nts)
-  * [2G Network NFs](#2g-network-nfs)
-- [Private 3G-4G-5G Core Networks based on Open Source](#private-3g-4g-5g-core-networks-based-on-open-source)
-- [Artificial Intelligence for Telcos](#artificial-intelligence-for-telcos)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -43,6 +43,61 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [Awesome Free Cloud for Dev](https://github.com/ripienaar/free-for-dev) - A list of SaaS, PaaS and IaaS offerings that have free tiers
   - [Awesome PaaS](https://github.com/debarshibasak/awesome-paas) - A curated list of PaaS, developer platforms, Self hosted PaaS, Cloud IDEs and ADNs
   - [Awesome IoT](https://github.com/phodal/awesome-iot) - A collaborative list of great resources about IoT Framework, Library, OS, Platform
+
+## Open Source Cellular Network NFs
+
+### 5G Network NFs
+
+  - [OCUDU](https://gitlab.com/ocudu/ocudu) - a complete RAN solution compliant with 3GPP and O-RAN Alliance specifications (full L1/2/3 stack), governed under the Linux Foundation
+  - [OpenAirInterface 5G RAN](https://openairinterface.org/oai-5g-ran-project/) - an open source 5G Radio Access Network supporting 5G SA & NSA
+  - [srsRAN](https://github.com/srsran/srsran_project) - a complete 5G RAN solution, featuring an ORAN-native CU/DU
+  - [Free5GC](https://free5gc.org/) - an open-source project for 5th generation (5G) mobile core networks (Release 15)
+  - [Open5GS](https://open5gs.org/) - a C-language Open Source implementation of 5G Core Network (Release-16)
+  - [OpenAirInterface 5GC](https://openairinterface.org/oai-code/) - open source 5G Core Network
+  - [SigScale CHF](https://github.com/sigscale/chf) - an open source 5G Charging Function NF
+  - [ellacore](https://github.com/ellanetworks/core) - free5GC-based core network with eBPF user plane in a single binary
+
+### 4G Network NFs
+
+  - [srsENB](https://www.srslte.com/4g) - a full-stack SDR 4G eNodeB application
+  - [OpenAirInterface 4G RAN](https://openairinterface.org/oai-code/) - open source 4G Radio Access Network
+  - [Open5GS](https://open5gs.org/) - a C-language Open Source implementation of 4G EPC
+  - [srsEPC](https://www.srslte.com/4g) - a light-weight 4G core network implementation with MME, HSS and S/P-GW
+  - [OpenAirInterface 4GC](https://openairinterface.org/oai-code/) - open source 4G Core Network
+  - [Corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network
+  - [OMEC](https://opennetworking.org/omec/) - an Open Source Virtualized Mobile Core Project from ONF
+  - [SigScale OCS](https://github.com/sigscale/chf) - an open source 4G Online Charging Function NF
+
+### 3G Network NFs
+
+  - [OpenBTS-UMTS ](https://github.com/RangeNetworks/OpenBTS-UMTS) - a 3G UMTS Data Radio Access Network Node
+  - [Corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network
+  - [OsmoSGSN](https://osmocom.org/projects/osmosgsn) - an Open Source implementation of a SGSN (Serving GPRS Support Node)
+  - [OsmoGGSN](https://osmocom.org/projects/openggsn) - an Open Source implementation of a GGSN (Gateway GPRS Support Node)
+  - [1xBTS](https://github.com/chrismoos/1xbts) - open source CDMA2000 cellular network
+
+### 2G Network NFs
+
+  - [OsmocomBB](https://osmocom.org/projects/baseband/wiki) - an Open Source GSM Baseband software implementation
+  - [OpenBTS](https://github.com/RangeNetworks/openbts) - an open source GSM+GPRS Radio Access Network Node
+  - [OsmoTRX](https://osmocom.org/projects/osmotrx) - a GSM Radio Modem based on a fork of the OpenBTS Transceiver program
+  - [OsmoBTS](https://osmocom.org/projects/osmotrx/wiki/OsmoTRX) - a software implementation of a GSM BTS
+
+## Private 3G-4G-5G Core Networks based on Open Source
+  
+  - [BubbleRAN](https://bubbleran.com) - private 4G/5G core network based on OpenAirInterface
+  - [OAIBOX](https://oaibox.com/) - private 5G core network based on OpenAirInterface
+  - [Saviah](https://www.saviah.com/en) - private 5G core network based on Free5GC
+  - [firecell](https://firecell.io/) - private 4G & 5G core networks based on OpenAirInterface
+  - [5-fi](https://5-fi.net/) - 5G private core network based on OpenAirInterface
+  - [sysmocom](https://sysmocom.de/products/cni/) - 3G & 4G private core networks based on Osmocom
+  - [NeoPlane](https://neoplane.io/) - private 4G & 5G core networks based on Open5GS
+
+## Artificial Intelligence for Telcos
+
+  - [Telco-RAG](https://github.com/netop-team/Telco-RAG) - a specialized Retrieval-Augmented Generation for 3GPP documents
+  - [NVIDIA Aerial CUDA-Accelerated RAN](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) - software and tools to build, train, simulate, and deploy AI-native wireless networks
+  - [OCUDU AI Agent Skills](https://github.com/ngkore/OCUDU-AI-Agent-Skills) -  OCUDU enabled with AI Agent Skills to perform action by AI agents like Claude, Cursor, Windsurf etc...
 
 ## Resources
 
@@ -154,57 +209,3 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [ric-plt/appmgr](https://gerrit.o-ran-sc.org/r/gitweb?p=ric-plt%2Fappmgr.git;a=summary) - deployment and management of various RIC xApp applications in Kubernates environment
   - [ric-plt/jaegeradapter](https://gerrit.o-ran-sc.org/r/gitweb?p=ric-plt%2Fjaegeradapter.git;a=summary) - bootstrap project for Jaeger Agent as a side-car container
 
-## Open Source Cellular Network NFs
-
-### 5G Network NFs
-
-  - [OCUDU](https://gitlab.com/ocudu/ocudu) - a complete RAN solution compliant with 3GPP and O-RAN Alliance specifications (full L1/2/3 stack), governed under the Linux Foundation
-  - [OpenAirInterface 5G RAN](https://openairinterface.org/oai-5g-ran-project/) - an open source 5G Radio Access Network supporting 5G SA & NSA
-  - [srsRAN](https://github.com/srsran/srsran_project) - a complete 5G RAN solution, featuring an ORAN-native CU/DU
-  - [Free5GC](https://free5gc.org/) - an open-source project for 5th generation (5G) mobile core networks (Release 15)
-  - [Open5GS](https://open5gs.org/) - a C-language Open Source implementation of 5G Core Network (Release-16)
-  - [OpenAirInterface 5GC](https://openairinterface.org/oai-code/) - open source 5G Core Network
-  - [SigScale CHF](https://github.com/sigscale/chf) - an open source 5G Charging Function NF
-  - [ellacore](https://github.com/ellanetworks/core) - free5GC-based core network with eBPF user plane in a single binary
-
-### 4G Network NFs
-
-  - [srsENB](https://www.srslte.com/4g) - a full-stack SDR 4G eNodeB application
-  - [OpenAirInterface 4G RAN](https://openairinterface.org/oai-code/) - open source 4G Radio Access Network
-  - [Open5GS](https://open5gs.org/) - a C-language Open Source implementation of 4G EPC
-  - [srsEPC](https://www.srslte.com/4g) - a light-weight 4G core network implementation with MME, HSS and S/P-GW
-  - [OpenAirInterface 4GC](https://openairinterface.org/oai-code/) - open source 4G Core Network
-  - [Corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network
-  - [OMEC](https://opennetworking.org/omec/) - an Open Source Virtualized Mobile Core Project from ONF
-  - [SigScale OCS](https://github.com/sigscale/chf) - an open source 4G Online Charging Function NF
-
-### 3G Network NFs
-
-  - [OpenBTS-UMTS ](https://github.com/RangeNetworks/OpenBTS-UMTS) - a 3G UMTS Data Radio Access Network Node
-  - [Corenet](https://github.com/mitshell/corenet) - Minimal 3G and LTE / EPC core network
-  - [OsmoSGSN](https://osmocom.org/projects/osmosgsn) - an Open Source implementation of a SGSN (Serving GPRS Support Node)
-  - [OsmoGGSN](https://osmocom.org/projects/openggsn) - an Open Source implementation of a GGSN (Gateway GPRS Support Node)
-  - [1xBTS](https://github.com/chrismoos/1xbts) - open source CDMA2000 cellular network
-
-### 2G Network NFs
-
-  - [OsmocomBB](https://osmocom.org/projects/baseband/wiki) - an Open Source GSM Baseband software implementation
-  - [OpenBTS](https://github.com/RangeNetworks/openbts) - an open source GSM+GPRS Radio Access Network Node
-  - [OsmoTRX](https://osmocom.org/projects/osmotrx) - a GSM Radio Modem based on a fork of the OpenBTS Transceiver program
-  - [OsmoBTS](https://osmocom.org/projects/osmotrx/wiki/OsmoTRX) - a software implementation of a GSM BTS
-
-## Private 3G-4G-5G Core Networks based on Open Source
-  
-  - [BubbleRAN](https://bubbleran.com) - private 4G/5G core network based on OpenAirInterface
-  - [OAIBOX](https://oaibox.com/) - private 5G core network based on OpenAirInterface
-  - [Saviah](https://www.saviah.com/en) - private 5G core network based on Free5GC
-  - [firecell](https://firecell.io/) - private 4G & 5G core networks based on OpenAirInterface
-  - [5-fi](https://5-fi.net/) - 5G private core network based on OpenAirInterface
-  - [sysmocom](https://sysmocom.de/products/cni/) - 3G & 4G private core networks based on Osmocom
-  - [NeoPlane](https://neoplane.io/) - private 4G & 5G core networks based on Open5GS
-
-## Artificial Intelligence for Telcos
-
-  - [Telco-RAG](https://github.com/netop-team/Telco-RAG) - a specialized Retrieval-Augmented Generation for 3GPP documents
-  - [NVIDIA Aerial CUDA-Accelerated RAN](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) - software and tools to build, train, simulate, and deploy AI-native wireless networks
-  - [OCUDU AI Agent Skills](https://github.com/ngkore/OCUDU-AI-Agent-Skills) -  OCUDU enabled with AI Agent Skills to perform action by AI agents like Claude, Cursor, Windsurf etc...
