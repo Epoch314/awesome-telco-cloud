@@ -9,7 +9,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
   * [3G Network NFs](#3g-network-nts)
   * [2G Network NFs](#2g-network-nfs)
 - [Private 3G-4G-5G Core Networks based on Open Source](#private-3g-4g-5g-core-networks-based-on-open-source)
-- [Artificial Intelligence for Telcos](#artificial-intelligence-for-telcos)
+- [AI for Telcos](#ai-for-telcos)
 - [Resources](#resources)
   * [Books](#books)
   * [Courses](#courses)
@@ -43,6 +43,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [Awesome Free Cloud for Dev](https://github.com/ripienaar/free-for-dev) - A list of SaaS, PaaS and IaaS offerings that have free tiers
   - [Awesome PaaS](https://github.com/debarshibasak/awesome-paas) - A curated list of PaaS, developer platforms, Self hosted PaaS, Cloud IDEs and ADNs
   - [Awesome IoT](https://github.com/phodal/awesome-iot) - A collaborative list of great resources about IoT Framework, Library, OS, Platform
+  - [Awesome Private Wireless](https://github.com/sullivg2/awesome-private-wireless) - A curated list of awesome services, solutions and resources for private LTE and 5G networks 
 
 ## Open Source Cellular Network NFs
 
@@ -93,13 +94,18 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [sysmocom](https://sysmocom.de/products/cni/) - 3G & 4G private core networks based on Osmocom
   - [NeoPlane](https://neoplane.io/) - private 4G & 5G core networks based on Open5GS
 
-## Artificial Intelligence for Telcos
+## AI for Telcos
 
   - [Telco-RAG](https://github.com/netop-team/Telco-RAG) - a specialized Retrieval-Augmented Generation for 3GPP documents
   - [NVIDIA Aerial CUDA-Accelerated RAN](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) - software and tools to build, train, simulate, and deploy AI-native wireless networks
-  - [OCUDU AI Agent Skills](https://github.com/ngkore/OCUDU-AI-Agent-Skills) -  OCUDU enabled with AI Agent Skills to perform action by AI agents like Claude, Cursor, Windsurf etc...
+  - [OCUDU AI Agent Skills](https://github.com/ngkore/OCUDU-AI-Agent-Skills) -  OCUDU enabled with AI Agent Skills to perform action by agents like Claude, Cursor and Windsurf
 
 ## Resources
+
+### Open Data Sets
+
+  - [SUTD 5G dataset](https://github.com/FCCLab/sutd_5g_dataset_2023) - Collected Key Performance Measurements (KPM) of a UE in a private 5G network at Singapore University of Technology and Design (SUTD)
+
 
 ### Books
 
@@ -144,6 +150,10 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [K8s introducing SCTP multihoming functionality with LoxiLB](https://www.loxilb.io/post/k8s-introducing-sctp-multihoming-functionality-with-loxilb)
   - [Guide on how to set-up Linux and Docker for real-time applications using the Ubuntu realtime-kernel/PREEMPT_RT patch](https://github.com/2b-t/linux-realtime)
   - [https://www.linutronix.de/blog/Containers-and-real-time-and-what-about-TSN](https://www.linutronix.de/blog/Containers-and-real-time-and-what-about-TSN)
+
+### Tutorials
+
+  - [Private-5g-setup-with-Open5gs-and-srsRAN-and-B210](https://github.com/ManojPandekamat/Private-5g-setup-with-Open5gs-and-srsRAN-and-B210) - 5g network using Open5gs, srsRAN and USRP B210
 
 ## NF Development Projects
   - [Ligato](https://ligato.io/) - a Go Framework for Building Applications to Control and Manage Cloud Native Network Functions (CNF)
