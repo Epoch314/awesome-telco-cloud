@@ -93,6 +93,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [5-fi](https://5-fi.net/) - 5G private core network based on OpenAirInterface
   - [sysmocom](https://sysmocom.de/products/cni/) - 3G & 4G private core networks based on Osmocom
   - [NeoPlane](https://neoplane.io/) - private 4G & 5G core networks based on Open5GS
+  - [Rapid5GS](https://rapid5gs.com/) - one-command private 4G & 5G core network deployments based on Open5GS.
 
 ## AI for Telcos
 
