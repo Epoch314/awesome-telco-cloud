@@ -151,6 +151,7 @@ A curated list of Telco Cloud ecosystem projects and resources.
   - [K8s introducing SCTP multihoming functionality with LoxiLB](https://www.loxilb.io/post/k8s-introducing-sctp-multihoming-functionality-with-loxilb)
   - [Guide on how to set-up Linux and Docker for real-time applications using the Ubuntu realtime-kernel/PREEMPT_RT patch](https://github.com/2b-t/linux-realtime)
   - [https://www.linutronix.de/blog/Containers-and-real-time-and-what-about-TSN](https://www.linutronix.de/blog/Containers-and-real-time-and-what-about-TSN)
+  - [Rapid Deployment LTE](https://joshlambert.xyz/rapid-deployment-lte/) - a field guide to deploying private LTE/5G on CBRS with an Open5GS core.
 
 ### Tutorials
 
